@@ -19,23 +19,32 @@ title = "links"
   url = "https://github.com/thezenbyte"
 
 
-[[entries]]
-title = "all posts"
-
-  [entries.post_list]
-  limit = 10
-  show_more = true
-  show_more_text = "See archive..."
-  show_more_url = "posts"
-
 # [[entries]]
-# title = "posts by category"
+# title = "all posts"
 
 #   [entries.post_list]
-#   section = "posts"
+#   limit = 10
 #   show_more = true
-#   show_more_text = "See more posts..."
+#   show_more_text = "See archive..."
 #   show_more_url = "posts"
+
+[[entries]]
+title = "notes"
+
+  [entries.post_list]
+  section = "notes"
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "posts"
+
+[[entries]]
+title = "opinion pieces"
+
+  [entries.post_list]
+  section = "opinion-pieces"
+  show_more = true
+  show_more_text = "See more posts..."
+  show_more_url = "posts"
 
 # [[entries]]
 # title = "rss"
